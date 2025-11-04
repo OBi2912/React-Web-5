@@ -15,7 +15,7 @@ export default function CryptoPriceDisplay() {
             <h2>Cotizacion</h2>
         <div className="result">
             <img
-                    src={`https://cryptocompare.com/${result.IMAGEURL}`}
+                    src={`https://www.santander.com/content/dam/santander-com/es/stories/contenido-stories/2021/educacionfinanciera/im-storie-guia-para-saber-que-son-las-criptomonedas-3.jpg`}
                     alt="Imagen Cryptomoneda"
                        />
             <div>

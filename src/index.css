@@ -13,6 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.1);
   min-height: 100vh;
   font-family: 'Outfit', sans-serif;
   font-size: 2rem;
@@ -36,8 +37,8 @@ body {
 }
 .content {
   margin-top: 5rem;
-  padding: 6rem 2rem;
-  background-color: #FFF;
+  padding: 3rem 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 1rem;
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 
@@ -46,7 +47,7 @@ body {
 .field {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 
 }
 .form label {
@@ -64,13 +65,13 @@ body {
 .form [type="submit"] {
   background-color: var(--primary);
   color: black;
-border: none;
-padding: 1rem;
-font-weight: 900;
-cursor: pointer;
-text-transform: uppercase;
-margin-top: 2rem;
-transition: background-color 300ms ease;
+ border: none;
+ padding: 1rem;
+ font-weight: 900;
+ cursor: pointer;
+ text-transform: uppercase;
+ margin-top: 1rem;
+ transition: background-color 300ms ease;
 }
 .form [type="submit"]:hover {
   background-color: #0CB378;
@@ -78,7 +79,7 @@ transition: background-color 300ms ease;
 }
 
 .result-wrapper {
-margin-top: 5rem;
+margin-top: 3rem;
 }
 
 .result-wrapper h2 {
